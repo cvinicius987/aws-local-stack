@@ -1,12 +1,6 @@
 
 Conectando através do AWS CLI ao Serviço S3 do LocalStack, podendo ser utilizado o *aws s3* ou *aws s3api*
 
-## Container LocalStack
-
-```shell
-docker run -d -p 4566:4566 -e SERVICES=s3 localstack/localstack:0.12.2
-```
-
 ## Operações no Local Stack
 
 #### Criando um Bucket S3

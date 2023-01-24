@@ -1,12 +1,6 @@
 
 Conectando através do AWS CLI ao Serviço de filas SQS do LocalStack
 
-## Container LocalStack
-
-```shell
-docker run -d -p 4566:4566 -e SERVICES=sqs localstack/localstack:0.12.2
-```
-
 ## Operações no Local Stack
 
 #### Criando SQS Queues
