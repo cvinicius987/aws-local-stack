@@ -1,5 +1,5 @@
 
-Conectando através do AWS CLI ao Serviço de filas SQS do LocalStack
+Conectando através do AWS CLI ao Serviço de topics SNS do LocalStack
 
 ## Operações no Local Stack
 
