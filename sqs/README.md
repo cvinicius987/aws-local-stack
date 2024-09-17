@@ -25,3 +25,8 @@ aws sqs receive-message --queue-url http://localhost:4566/000000000000/queue_sqs
 ```shell
 aws sqs purge-queue --queue-url http://localhost:4566/000000000000/queue_sqs_test --endpoint-url=http://localhost:4566
 ```
+
+#### Enviando dados para uma fila
+```shell
+aws sqs send-message --queue-url http://localhost:4566/000000000000/queue_sqs_test --endpoint-url=http://localhost:4566 --message-body "Hello from Amazon SQS."
+```
